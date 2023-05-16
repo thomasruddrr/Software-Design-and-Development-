@@ -26,20 +26,7 @@ namespace GuessingGame
                 else if (guess < randomNumber)
                 {
                     Console.WriteLine("Too low! Guess again:");
-                }
-                else
-                {
-                    Console.WriteLine("Too high! Guess again:");
-                }
-            }
-
-            if (!correctGuess)
-            {
-                Console.WriteLine("Sorry, you didn't guess the number. The number was " + randomNumber + ".");
-            }
-
-            Console.WriteLine("Press any key to exit.");
-            Console.ReadKey();
+               
         }
     }
 }
